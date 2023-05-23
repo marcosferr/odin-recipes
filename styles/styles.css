@@ -1,4 +1,4 @@
-h1 {
+h1.center {
     text-align: center;
 }
 
@@ -21,9 +21,33 @@ h1 {
 
 }
 
+
+
 .card-img {
     width: 100%;
     border-radius: 5px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    padding: 15px;
+    background-color: azure;
+}
+
+aside .card {
+    width: 100%;
+
+
+}
+
+aside div img {
+    width: 80%;
+}
+
+.article-img {
+    width: 100%;
 }
 
 .card-link {
@@ -61,4 +85,8 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
+}
+
+article {
+    flex: 2 1 0;
 }
